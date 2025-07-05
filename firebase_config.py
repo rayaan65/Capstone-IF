@@ -15,7 +15,6 @@ def create_env_file():
     if not os.path.exists(env_file_path):
         with open(env_file_path, 'w') as f:
             f.write("""# Firebase Configuration
-FIREBASE_API_KEY="AIzaSyBLIsowh5P0nh3eHIIFJfsAB60cx0_Ay_Y"
 FIREBASE_AUTH_DOMAIN="insightflow-8f69.firebaseapp.com"
 FIREBASE_PROJECT_ID="insightflow-8f69"
 FIREBASE_STORAGE_BUCKET="insightflow-8f69.firebasestorage.app"
